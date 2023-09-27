@@ -64,7 +64,7 @@ function calculateTaxRate(monthlyTaxablePay) {
 
 
   // net salary
-function calculateNetSalary(salary, profit){
+function calculateNetSalary(salary){
 
     let monthlyTaxablePay = salary
 
@@ -84,14 +84,10 @@ function calculateNetSalary(salary, profit){
 
     console.log(netSalary)
 
-    return netSalary
+    return netSalary;
 
     }
 
  
 
- let salary = parseInt("7000")// gross salary
-
- let profit = parseInt("800")// profit
-
- calculateNetSalary(salary, profit);
+ calculateNetSalary(salary);
