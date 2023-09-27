@@ -3,36 +3,49 @@
 
 ###### ---- TOY PROBLEMS ----- ########
 
-
-# Description
+👨‍💻
+# 🌱Description
 - This is a code challenge meant to test on skills acquired in the first week of this Phase. More description is provided below.
 
 
-# Setup instructions
-- To use this repository on your machine requires some simple steps
+# 🛠️ Setup instructions
+- Using this repository on your machine requires some simple steps outlined in below:
 
-### Open a terminal / command line interface on your computer
+### --- Click on the green button named code on github under this repository
+### --- Ensure you have selected SSH option then hit copy so that it copies the SSH Key
+### Open the terminal / command line interface on your computer
 
 - Clone the repo by using the following to create a copy on your local machine:
 
   - git clone https://github.com/jerrytarus/toy-problems-tasks.git
   
-- After cloning, you need to move to the directory. The command to move to this newly created directory is:
+- After cloning, you need to move(cd) to the directory. The command to move to this newly created directory is:
 
    - cd toy-problems-task
 
-### Open it in Visual Studio Code
+### To open it in Visual Studio Code, use the command below
 
   - code .
+
+⚡⚡⚡⚡⚡⚡⚡⚡
+### ---- Tentatively --- ###
+ - You can open Visual Studio Code then click on the files section that displays a drop-down. Once the drop down toggles, you can click on open folder which opens a file picker. 
+- Select the folder that contains the project, in our case, toy-problem-tasks. 
 
 Once you cd into the directory, you will find one folder with 4 files, net-salary-calculator, speed-detector, grade-generator and a README.md file.
 ##### Challenge Description.
 - All the challenges were solved using JavaScript.
 - Each challenge has its own file.
 
-## Challenge 1:
+### --- Grade Generator --- ###
 
-- Click on the grade-generator.js file where you will be required to input students marks. Upon inputting the marks click  enter on your terminal and a grade will be assigned to the marks you have input where A > 79, B - 60 to 79, C - 59 to 49, D - 40 to 49, E - less 40. Your input should be between 0 and 100. 
+- Click on the grade-generator.js file where you will be required to input students marks. Upon inputting the marks click  enter on your terminal and a grade will be assigned to the marks you have input where:
+A > 79, 
+B - 60 to 79, 
+C - 59 to 49, 
+D - 40 to 49, 
+E - less 40. 
+Your input should be between 0 and 100 and when you enter an invalid mark, the program will display to you this error: "Oups!!! Invalid marks" 
 
 ### To Run this application
 - Running this application,open terminal on your vs code then type:
@@ -40,7 +53,7 @@ Once you cd into the directory, you will find one folder with 4 files, net-salar
     - Enter the marks and then wait for the answer automatically.
 
 
- ## Challenge 2:
+ ### --- Speed Detector --- ###
 
 - Navigate to the file named speed-detector.js where you will be required to input car speed. Upon inputting the speed click  enter on your terminal.
 - Speeds ranging from zero to seventy returns “Ok”. 
@@ -66,7 +79,7 @@ For this challenge, the program should calculate for you the net salary based on
 # Author
 - Jerry Tarus
 
-# License
+### 🔒 License 🔒 
 - GNU GENERAL PUBLIC LICENSE
 - Version 3, 29 June 2007
-- Copyright (c) 2023 Jerry Tarus
+- Copyright ©️ 2023 Jerry Tarus
